@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <title>TaskMaster - Task Management</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="task-list">
+            <h2>Task List</h2>
+            <ul>
+                <li>
+                    <h3>Task 1</h3>
+                    <p>Due Date: 2023-10-01</p>
+                </li>
+                <li>
+                    <h3>Task 2</h3>
+                    <p>Due Date: 2023-10-15</p>
+                </li>
+                <!-- More tasks... -->
+            </ul>
+        </section>
+        
+        <section class="task-form">
+            <h2>Create New Task</h2>
+            <form>
+                <label for="task-name">Task Name:</label>
+                <input type="text" id="task-name" name="task-name" required>
+
+                <label for="due-date">Due Date:</label>
+                <input type="date" id="due-date" name="due-date" required>
+
+                <button type="submit">Create Task</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TaskMaster</p>
+    </footer>
+</body>
+</html>
